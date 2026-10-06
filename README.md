@@ -10,7 +10,7 @@ Normal includes the minimap, first-person camera, Electric Blink, Hoarder's Help
 
 There are no manual Nexus downloads or original archive imports. OptiScaler, EML, Shroudtopia and the maintained minimap download automatically from pinned public releases. Visual C++ is downloaded only when needed. Verified files are cached and reused, allowing installation and profile switching offline once the required dependencies are available. Dependency downloads, especially the graphics libraries, are larger than the manager ZIP. Game-data patches are generated against the recipient's matching game installation.
 
-Use **Check for updates** on the home screen, in Settings or in the tray menu. Automatic checks run at startup and every six hours; disable them in Settings if preferred. Installation waits until Enshrouded is closed and the manager is idle. The tray icon is blue for Normal and gold for Cheeze.
+Use **Check for updates** on the home screen, in Settings or in the tray menu. Automatic checks run at startup and every 30 minutes; disable them in Settings if preferred. Installation waits until Enshrouded is closed and the manager is idle. The tray icon is blue for Normal and gold for Cheeze.
 
 Previous 4.x editions receive the small 4.2.1 compatibility update first, then the new manager through the bundled-release feeds. Users of Normal 3.9 or Cheeze 1.0.2 should close the old launcher through its tray menu and download this manager once. The stable launcher entry point is `%LOCALAPPDATA%\EnshroudedClientMods\Enshrouded-Launcher.exe`. A Setup installation also provides a Start menu shortcut.
 
