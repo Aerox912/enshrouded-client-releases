@@ -1,8 +1,12 @@
 # Enshrouded Mod Manager
 
-One app with **Normal** and **Cheeze** profiles. All 12 mods are visible in two rows. Hover over a mod to learn what it does, or use its Nexus badge to visit the original author's page. Key bindings are centralized under **Settings > Hotkeys**.
+**Regular** and **Admin** editions, each with **Normal** and **Cheeze** profiles. Hover over a mod to learn what it does, or use its Nexus badge to visit the original author's page. Key bindings are centralized under **Settings > Hotkeys**.
 
-[Download the latest release](https://github.com/Aerox912/enshrouded-client-releases/releases/latest). The ZIP contains both **Enshrouded-Setup.exe** for a per-user installation and **Enshrouded-Mods.exe** for portable use. The ZIP stays below 15 MB and requires no GitHub login. Both profiles' Nexus originals and maintained patches are bundled; larger public dependencies download automatically without signing in. Both options use the same settings and updater.
+[Download Regular 4.4.3](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.3/Enshrouded-Mod-Manager-Regular-4.4.3.zip) or [download Admin 4.4.3](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.3/Enshrouded-Mod-Manager-Admin-4.4.3.zip). Each ZIP contains a per-user Setup executable and **Enshrouded-Mods.exe** for portable use, stays below 15 MB and requires no GitHub login. Both profiles' Nexus originals and maintained patches are bundled; larger public dependencies download automatically without signing in.
+
+Admin adds optional **Always Flying**, with a rebindable **F6** toggle. Both editions offer optional **Workshop Speed 20x**, unselected by default. A dedicated server needs the matching recipe change; it is deployed on Enshrouded, IKEA and Soulrend and affects everyone on those servers. Vein Mining retains its **F8** toggle option. The manager can show brief on/off notices for supported toggles while running.
+
+**Creative Mode is not available yet.** Admin shows a disabled card for the planned feature; neither download contains a Creative binary. The Admin edition grants no server privileges. Creative will require server support and server-side SteamID approval. Native flight, toggle notices, Workshop timing and mixed-client multiplayer still need live gameplay acceptance; installation and update checks are separate evidence.
 
 Select Normal or Cheeze in the app to apply that profile's defaults with the game closed. You can also choose individual mods and apply a custom selection. Switching profiles keeps the same application and preserves hotkeys, minimap options, camera preferences, OptiScaler settings and the original uninstall baseline.
 
@@ -12,9 +16,9 @@ There are no manual Nexus downloads or original archive imports. OptiScaler, EML
 
 Use **Check for updates** on the home screen, in Settings or in the tray menu. Automatic checks run at startup and every 30 minutes; disable them in Settings if preferred. Installation waits until Enshrouded is closed and the manager is idle. The tray icon is blue for Normal and gold for Cheeze.
 
-Previous 4.x editions receive the small 4.2.1 compatibility update first, then the new manager through the bundled-release feeds. Users of Normal 3.9 or Cheeze 1.0.2 should close the old launcher through its tray menu and download this manager once. The stable launcher entry point is `%LOCALAPPDATA%\EnshroudedClientMods\Enshrouded-Launcher.exe`. A Setup installation also provides a Start menu shortcut.
+Previous Regular 4.x editions receive the small 4.2.1 compatibility update first, then the new manager through the bundled-release feeds. Users of Normal 3.9 or Cheeze 1.0.2 should close the old launcher through its tray menu and download this manager once. Regular stores its stable entry point and settings under `%LOCALAPPDATA%\EnshroudedClientMods`; Admin uses `%LOCALAPPDATA%\EnshroudedAdminMods`. Each Setup installation provides its own Start menu shortcut. An automatic update keeps its edition.
 
-Signed metadata and SHA-256 checksums verify every app update. The `bundled-channels` feeds identify the same manager release. The legacy `channels` feeds retain 4.2.1 so launchers with the old size limit can migrate safely. Failed builds or publication leave the previous feeds active. Previous app versions and recovery backups are retained.
+Signed metadata and SHA-256 checksums verify every app update. The `bundled-channels/stable`, `normal` and `cheeze` feeds identify the Regular package; `admin` identifies the separate Admin package. All four are promoted together after both packages pass build and setup checks. The legacy `channels` feeds retain 4.2.1 so launchers with the old size limit can migrate safely. Previous app versions and recovery backups are retained.
 
 Original author credits, download links, compatibility and profile manifests: [enshrouded-mod-patches](https://github.com/Aerox912/enshrouded-mod-patches). Maintained minimap and camera code retain their upstream licenses and credits. Installer source is private. Third-party originals retain their authors' rights and notices. This bundle does not grant further redistribution rights. No game executables, game resource containers, worlds or personal settings are included.
 
