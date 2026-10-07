@@ -2,7 +2,9 @@
 
 **Regular** and **Admin** editions, each with **Normal** and **Cheeze** profiles. Hover over a mod to learn what it does, or use its Nexus badge to visit the original author's page. Key bindings are centralized under **Settings > Hotkeys**.
 
-[Download Regular 4.4.3](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.3/Enshrouded-Mod-Manager-Regular-4.4.3.zip) or [download Admin 4.4.3](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.3/Enshrouded-Mod-Manager-Admin-4.4.3.zip). Each ZIP contains a per-user Setup executable and **Enshrouded-Mods.exe** for portable use, stays below 15 MB and requires no GitHub login. Both profiles' Nexus originals and maintained patches are bundled; larger public dependencies download automatically without signing in.
+[Download Regular 4.4.4](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.4/Enshrouded-Mod-Manager-Regular-4.4.4.zip) or [download Admin 4.4.4](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.4/Enshrouded-Mod-Manager-Admin-4.4.4.zip). Each ZIP contains a per-user Setup executable and **Enshrouded-Mods.exe** for portable use, stays below 15 MB and requires no GitHub login. Both profiles' Nexus originals and maintained patches are bundled; larger public dependencies download automatically without signing in.
+
+**4.4.4 fixes interrupted-update cleanup.** Uninstall now recovers unfinished updates before removing mods and clears the completed recovery record, allowing a fresh installation. Rollback covers optional flight and Workshop files. Backups remain available; missing or altered recovery files still stop the operation rather than discarding recovery data.
 
 Admin adds optional **Always Flying**, with a rebindable **F6** toggle. Both editions offer optional **Workshop Speed 20x**, unselected by default. A dedicated server needs the matching recipe change; it is deployed on Enshrouded, IKEA and Soulrend and affects everyone on those servers. Vein Mining retains its **F8** toggle option. The manager can show brief on/off notices for supported toggles while running.
 
