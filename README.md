@@ -1,6 +1,6 @@
-# Enshrouded Mod Manager 4.4.13
+# Enshrouded Mod Manager 4.4.14
 
-[Download Regular](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.13/Enshrouded-Mod-Manager-Regular-4.4.13.zip) or [download Admin](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.13/Enshrouded-Mod-Manager-Admin-4.4.13.zip). Each ZIP includes Setup and a portable manager. Both editions offer Normal and Cheeze profiles and preserve saved choices.
+[Download Regular](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.14/Enshrouded-Mod-Manager-Regular-4.4.14.zip) or [download Admin](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.14/Enshrouded-Mod-Manager-Admin-4.4.14.zip). Each ZIP includes Setup and a portable manager. Both editions offer Normal and Cheeze profiles and preserve saved choices.
 
 Magic Storage is a **public-test feature**, required in all managed profiles in both editions, including profiles that previously disabled it. F4 remains the default. Settings > Hotkeys accepts supported single keys, including German Ü; click the Magic Storage key field and press the desired key. In-game conflict checks still protect existing bindings. Magic Storage opens searchable magic storage for the current altar area. Transfers need the matching server companion and ordinary storage permissions, without Creative approval.
 
