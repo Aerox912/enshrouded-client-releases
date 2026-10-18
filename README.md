@@ -1,5 +1,16 @@
-# Enshrouded Mod Manager 4.4.20
+SPARKWEAVE MANAGER 4.4.23 - REGULAR FRIENDS TEST
 
-[Download Regular](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.20/Enshrouded-Mod-Manager-Regular-4.4.20.zip) or [download Admin](https://github.com/Aerox912/enshrouded-client-releases/releases/download/v4.4.20/Enshrouded-Mod-Manager-Admin-4.4.20.zip). Both editions target game build 25988036 and include Minimap 0.5.10-r2 and First Person, enabled by default for new selections. Admin does not grant game or server privileges. Auto Loot and XP Share are not included.
+This is a public friends-test prerelease, not a Nexus release. Extract the archive and run Enshrouded-Mods.exe. Select your Enshrouded folder and apply only the mods you want. The manager now enables and selects only components present in this package.
 
-The exact packages passed independent offline lifecycle, recovery, trust and payload checks (16 cases, 226 assertions). Nick reports the First Person base view as stable and Minimap standard-definition appearance, alignment, hide/show and restart as working. Nick reports that he tested the release. The independent receipt covers offline package checks only; details of gameplay scenarios were not included, and HDR coverage remains unreported. Each package retains its bundled credits and license notices; see the matching SHA256 checksum file before installing.
+Bundled current-game mods:
+- Minimap 0.5.10-local-r2, with North Up available under Settings > Hotkeys.
+- First-person view with HOME and stamina gauge.
+- Electric Blink.
+- Rested Enhanced (standalone); the Hoarder-dependent variant is removed.
+- Vein Mining.
+
+Hoarder's Helper and its dependent Rested variant are absent. Magic Storage, Auto Loot, Max Stack, Gifting, Grappling Hook, Workshop Speed, EMBER, Creative Mode, and OptiScaler are not included in this reduced package. Global XP Share remains excluded pending the required port permission.
+
+Targeted offline checks passed in both editions: 97 hotkey/North Up assertions and 6 branding/profile assertions. The embedded payload matches its file manifest. The broader full offline UI suite has an intermittent Windows file-replacement failure in synthetic fixtures. Live gameplay, multiplayer, and performance acceptance remain open. This prerelease receives updates from a separately signed, isolated friends-test feed; feed metadata is hosted outside this archive. Preserve the bundled notices and licenses.
+
+
